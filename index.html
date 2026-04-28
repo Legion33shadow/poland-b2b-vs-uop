@@ -1,224 +1,185 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
-<meta charset="UTF-8"/>
-<meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>Poland B2B vs UoP Calculator 2026 — Which Contract Pays More?</title>
-<meta name="description" content="Compare B2B vs UoP (employment) net income in Poland 2026 — ZUS, NFZ, liniowy/ryczałt tax, real monthly difference"/>
-<meta name="keywords" content="poland b2b vs uop 2026, kalkulator b2b uop polska, liniowy ryczalt kalkulator, b2b netto kalkulator 2026"/>
-<meta name="robots" content="index,follow"/>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>B2B vs Umowa o Prace 2026 — Kalkulator Rozliczenia</title>
+<meta name="description" content="Porownaj B2B z UoP. Oblicz rzeczywisty zysk, ZUS, NFZ i podatek 2026.">
+<meta name="robots" content="index,follow">
+<meta property="og:title" content="B2B vs Umowa o Prace 2026 — Kalkulator Rozliczenia">
+<meta property="og:description" content="Porownaj B2B z UoP. Oblicz rzeczywisty zysk, ZUS, NFZ i podatek 2026.">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5382997898313669" crossorigin="anonymous"></script>
 <style>
+:root{--bg:#06091a;--bg2:#0d1220;--card:#0f1929;--border:#1a2744;
+  --acc:#3b82f6;--acc2:#06b6d4;--green:#10b981;--red:#ef4444;
+  --yellow:#f59e0b;--pu:#8b5cf6;--tx:#f0f4ff;--mu:#7a90b8;--r:14px;
+  --shadow:0 8px 32px rgba(0,0,0,.5)}
 *{box-sizing:border-box;margin:0;padding:0}
-:root{--blue:#2563eb;--dark:#1e293b;--light:#f8fafc;--green:#16a34a;
-      --red:#dc2626;--orange:#ea580c;--shadow:0 4px 20px rgba(0,0,0,.1)}
-body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
-     background:var(--light);color:var(--dark);min-height:100vh}
-header{background:linear-gradient(135deg,#0f172a,#1e3a5f);color:#fff;
-       padding:36px 20px;text-align:center}
-header h1{font-size:clamp(1.2rem,3.5vw,2.1rem);line-height:1.3;margin-bottom:10px}
-header p{opacity:.8;font-size:.95rem;max-width:640px;margin:0 auto}
-.container{max-width:740px;margin:28px auto;padding:0 16px}
-.card{background:#fff;border-radius:14px;box-shadow:var(--shadow);
-      padding:28px;margin-bottom:22px}
-.card h2{font-size:1.05rem;color:var(--blue);margin-bottom:18px;
-         border-bottom:2px solid #eff6ff;padding-bottom:8px}
-.field{margin-bottom:15px}
-.field label{display:block;font-size:.85rem;font-weight:600;
-             color:#475569;margin-bottom:5px}
-.field input,.field select{width:100%;padding:11px 14px;
-  border:1.5px solid #cbd5e0;border-radius:9px;font-size:1rem;
-  transition:border-color .2s,box-shadow .2s}
-.field input:focus,.field select:focus{outline:none;
-  border-color:var(--blue);box-shadow:0 0 0 3px rgba(37,99,235,.15)}
+body{font-family:'Inter','Segoe UI',sans-serif;background:var(--bg);color:var(--tx);min-height:100vh;line-height:1.6}
+.hdr{background:rgba(6,9,26,.95);border-bottom:1px solid var(--border);padding:0 20px;
+  position:sticky;top:0;z-index:100;backdrop-filter:blur(12px)}
+.hdr-i{max-width:800px;margin:0 auto;display:flex;align-items:center;
+  justify-content:space-between;height:58px}
+.logo{font-size:1.1rem;font-weight:800;color:var(--tx);text-decoration:none;display:flex;align-items:center;gap:8px}
+.logo em{color:var(--acc);font-style:normal}
+.hero{background:linear-gradient(160deg,#0a1628,#060e1f);padding:52px 20px 40px;
+  text-align:center;border-bottom:1px solid var(--border);position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at 40% 40%,rgba(59,130,246,.07),transparent 60%);pointer-events:none}
+.hero h1{font-size:clamp(1.5rem,4vw,2.4rem);font-weight:800;
+  background:linear-gradient(135deg,#e0eaff,var(--acc2));
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:12px;position:relative}
+.hero p{color:var(--mu);font-size:.98rem;max-width:560px;margin:0 auto 18px;position:relative}
+.badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;position:relative}
+.badge{background:rgba(59,130,246,.12);border:1px solid rgba(59,130,246,.25);
+  color:var(--acc2);border-radius:20px;padding:4px 13px;font-size:.75rem;font-weight:600}
+.wrap{max-width:800px;margin:28px auto;padding:0 18px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:var(--r);
+  padding:26px;margin-bottom:20px;box-shadow:var(--shadow)}
+.card-title{font-size:1rem;font-weight:700;color:var(--acc);margin-bottom:16px;
+  display:flex;align-items:center;gap:8px}
+.field{margin-bottom:13px}
+label{display:block;font-size:.82rem;font-weight:600;color:var(--mu);margin-bottom:5px}
+input[type=number],input[type=text],select{width:100%;padding:11px 14px;
+  background:var(--bg2);border:1.5px solid var(--border);border-radius:9px;
+  color:var(--tx);font-size:.96rem;outline:none;transition:border-color .2s}
+input:focus,select:focus{border-color:var(--acc)}
 .grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
-.btn{width:100%;background:linear-gradient(135deg,var(--blue),#1d4ed8);
-     color:#fff;border:none;padding:15px;border-radius:10px;
-     font-size:1rem;font-weight:700;cursor:pointer;
-     transition:transform .1s,box-shadow .2s;margin-top:6px}
-.btn:hover{transform:translateY(-2px);
-           box-shadow:0 6px 20px rgba(37,99,235,.35)}
-.btn:active{transform:translateY(0)}
-.btn-sm{display:inline-block;padding:9px 18px;border-radius:8px;
-        font-size:.875rem;font-weight:600;cursor:pointer;
-        border:none;transition:transform .1s}
-.btn-share{background:#ff4500;color:#fff}
-.btn-twitter{background:#000;color:#fff}
-.btn-pdf{background:#16a34a;color:#fff}
-.btn-email{background:#7c3aed;color:#fff}
-.result-row{display:flex;justify-content:space-between;align-items:center;
-            padding:13px 0;border-bottom:1px solid #f1f5f9}
-.result-row:last-child{border-bottom:none}
-.res-label{color:#64748b;font-size:.9rem}
-.res-value{font-weight:800;font-size:1.15rem;color:var(--blue)}
-.shock{display:none;border-radius:12px;padding:20px;margin-top:18px;
-       text-align:center;font-size:1.1rem;font-weight:700;
-       animation:pop .4s ease}
-@keyframes pop{0%{transform:scale(.9);opacity:0}100%{transform:scale(1);opacity:1}}
-.shock-red{background:#fef2f2;border:2px solid var(--red);color:var(--red)}
-.shock-green{background:#f0fdf4;border:2px solid var(--green);color:var(--green)}
-.shock-orange{background:#fff7ed;border:2px solid var(--orange);color:var(--orange)}
-.affiliate-box{display:none;background:#fffbeb;border:1px solid #f59e0b;
-               border-radius:12px;padding:20px;margin-top:16px}
-.affiliate-box h3{font-size:.95rem;color:#92400e;margin-bottom:12px}
-.aff-links{display:flex;flex-wrap:wrap;gap:10px;margin-top:10px}
-.aff-link{display:inline-flex;align-items:center;gap:6px;padding:9px 14px;
-          background:#fff;border:1px solid #fcd34d;border-radius:8px;
-          text-decoration:none;color:#92400e;font-size:.85rem;font-weight:600;
-          transition:background .2s}
-.aff-link:hover{background:#fef3c7}
-.capture-box{background:#f0f4ff;border:1px solid #c7d2fe;border-radius:12px;
-             padding:20px;margin-top:16px}
-.capture-box h3{font-size:.9rem;color:#3730a3;margin-bottom:10px}
-.capture-form{display:flex;gap:8px;flex-wrap:wrap}
-.capture-form input{flex:1;min-width:180px;padding:10px 14px;
-  border:1px solid #c7d2fe;border-radius:8px;font-size:.9rem}
-.share-bar{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
-.tunnel-bar{background:#f0fdf4;border:1px solid #bbf7d0;border-radius:10px;
-            padding:14px;margin-top:16px}
-.tunnel-bar p{font-size:.85rem;color:#166534;margin-bottom:8px;font-weight:600}
-.tunnel-links{display:flex;flex-wrap:wrap;gap:8px}
-.tunnel-link{display:inline-block;padding:7px 12px;background:#fff;
-             border:1px solid #86efac;border-radius:7px;text-decoration:none;
-             color:#166534;font-size:.8rem;font-weight:600;
-             transition:background .2s}
-.tunnel-link:hover{background:#dcfce7}
-.ad-slot{background:#fff;border-radius:10px;padding:14px;text-align:center;
-          border:1px dashed #cbd5e0;margin-bottom:20px;min-height:80px}
-.meta-footer{font-size:.78rem;color:#94a3b8;text-align:center;
-              padding:24px 0 32px;line-height:1.7}
-@media print{.no-print{display:none!important}.card{box-shadow:none}}
+.btn{width:100%;padding:14px;background:linear-gradient(135deg,var(--acc),var(--acc2));
+  color:#fff;border:none;border-radius:10px;font-size:1rem;font-weight:700;
+  cursor:pointer;transition:opacity .2s;margin-top:6px}
+.btn:hover{opacity:.88}
+#shock-zone{display:none;margin-top:20px;animation:popIn .45s cubic-bezier(.34,1.56,.64,1)}
+@keyframes popIn{from{opacity:0;transform:scale(.9)}to{opacity:1;transform:scale(1)}}
+.shock-box{border-radius:14px;padding:22px;text-align:center;border:2px solid}
+.shock-red{background:rgba(239,68,68,.08);border-color:rgba(239,68,68,.3)}
+.shock-orange{background:rgba(245,158,11,.08);border-color:rgba(245,158,11,.3)}
+.shock-green{background:rgba(16,185,129,.08);border-color:rgba(16,185,129,.3)}
+.shock-value{font-size:2.8rem;font-weight:800;margin-bottom:6px}
+.shock-label{font-size:1rem;font-weight:600;margin-bottom:4px}
+.shock-sub{font-size:.85rem;opacity:.75}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px;margin-top:14px}
+.stat{background:var(--bg2);border:1px solid var(--border);border-radius:10px;padding:13px;text-align:center}
+.stat .sv{font-size:1.2rem;font-weight:800;margin-bottom:4px}
+.stat .sl{font-size:.72rem;color:var(--mu)}
+.proj{background:linear-gradient(135deg,rgba(139,92,246,.07),rgba(59,130,246,.05));
+  border:1.5px solid rgba(139,92,246,.2);border-radius:12px;padding:18px;margin-top:14px}
+.proj-title{font-size:.82rem;font-weight:700;color:var(--pu);
+  margin-bottom:12px;text-transform:uppercase;letter-spacing:.05em}
+.proj-row{display:flex;justify-content:space-between;align-items:center;
+  padding:7px 0;border-bottom:1px solid rgba(255,255,255,.05);flex-wrap:wrap;gap:6px}
+.proj-row:last-child{border:none}
+.proj-year{font-size:.8rem;color:var(--mu);font-weight:600;min-width:50px}
+.proj-cost{font-size:.88rem;font-weight:700;color:var(--red)}
+.proj-gain{font-size:.88rem;font-weight:700;color:var(--green)}
+.proj-note{font-size:.72rem;color:var(--mu)}
+.actions{display:flex;flex-direction:column;gap:9px;margin-top:14px}
+.action{display:flex;align-items:flex-start;gap:12px;background:var(--bg2);
+  border:1.5px solid var(--border);border-radius:12px;padding:14px;
+  text-decoration:none;color:var(--tx);transition:all .2s;cursor:pointer}
+.action:hover{border-color:var(--acc);transform:translateX(3px)}
+.a-rank{width:30px;height:30px;border-radius:50%;display:flex;align-items:center;
+  justify-content:center;font-size:.78rem;font-weight:800;flex-shrink:0}
+.r1{background:rgba(239,68,68,.15);color:var(--red);border:1.5px solid rgba(239,68,68,.3)}
+.r2{background:rgba(245,158,11,.15);color:var(--yellow);border:1.5px solid rgba(245,158,11,.3)}
+.r3{background:rgba(16,185,129,.15);color:var(--green);border:1.5px solid rgba(16,185,129,.3)}
+.a-body{flex:1}
+.a-title{font-weight:700;font-size:.9rem;margin-bottom:3px}
+.a-desc{font-size:.78rem;color:var(--mu);margin-bottom:4px}
+.a-gain{font-size:.78rem;font-weight:700;color:var(--green)}
+.a-arr{font-size:1rem;color:var(--mu);align-self:center;flex-shrink:0}
+.aff-section{margin-top:14px}
+.aff-title{font-size:.75rem;font-weight:700;color:var(--mu);
+  text-transform:uppercase;letter-spacing:.06em;margin-bottom:9px}
+.aff-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(155px,1fr));gap:8px}
+.aff-card{background:var(--bg2);border:1px solid var(--border);border-radius:10px;
+  padding:12px;text-decoration:none;color:var(--tx);transition:all .2s;
+  display:flex;flex-direction:column;gap:4px}
+.aff-card:hover{border-color:var(--acc);transform:translateY(-2px)}
+.aff-name{font-size:.83rem;font-weight:700}
+.aff-desc{font-size:.72rem;color:var(--mu)}
+.aff-tag{font-size:.68rem;font-weight:700;color:var(--green)}
+.capture{background:linear-gradient(135deg,rgba(16,185,129,.06),rgba(6,182,212,.04));
+  border:1.5px solid rgba(16,185,129,.18);border-radius:12px;padding:18px;margin-top:14px;text-align:center}
+.capture h3{font-size:.95rem;font-weight:700;margin-bottom:5px}
+.capture p{font-size:.8rem;color:var(--mu);margin-bottom:12px}
+.cap-row{display:flex;gap:8px;max-width:420px;margin:0 auto;flex-wrap:wrap}
+.cap-row input{flex:1;min-width:160px;padding:10px 12px;background:var(--bg);
+  border:1.5px solid var(--border);border-radius:8px;color:var(--tx);font-size:.88rem;outline:none}
+.cap-row button{padding:10px 16px;background:var(--green);color:#fff;border:none;
+  border-radius:8px;font-weight:700;cursor:pointer;font-size:.85rem;white-space:nowrap}
+.share-row{display:flex;gap:8px;margin-top:12px;justify-content:center;flex-wrap:wrap}
+.s-btn{padding:8px 14px;border-radius:8px;border:1.5px solid;font-size:.78rem;
+  font-weight:700;cursor:pointer;text-decoration:none;display:inline-flex;
+  align-items:center;gap:5px;transition:all .2s;background:transparent}
+.s-tw{border-color:rgba(29,161,242,.3);color:#1da1f2}
+.s-tw:hover{background:rgba(29,161,242,.1)}
+.s-rd{border-color:rgba(255,87,0,.3);color:#ff5700}
+.s-rd:hover{background:rgba(255,87,0,.1)}
+.s-cp{border-color:var(--border);color:var(--mu)}
+.s-cp:hover{border-color:var(--acc);color:var(--acc)}
+.s-pdf{border-color:rgba(139,92,246,.3);color:var(--pu)}
+.s-pdf:hover{background:rgba(139,92,246,.1)}
+.tunnel{margin-top:18px}
+.tunnel-title{font-size:.75rem;font-weight:700;color:var(--mu);
+  text-transform:uppercase;letter-spacing:.06em;margin-bottom:9px}
+.tunnel-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:9px}
+.t-card{background:var(--card);border:1px solid var(--border);border-radius:11px;
+  padding:13px;text-decoration:none;color:var(--tx);transition:all .2s;
+  display:flex;flex-direction:column;gap:4px}
+.t-card:hover{border-color:var(--acc2);transform:translateY(-2px)}
+.t-ico{font-size:1.2rem}
+.t-name{font-size:.83rem;font-weight:700}
+.t-hook{font-size:.72rem;color:var(--mu)}
+.ad{max-width:800px;margin:0 auto;padding:8px 18px;text-align:center;min-height:80px}
+footer{border-top:1px solid var(--border);padding:20px;text-align:center;
+  color:var(--mu);font-size:.78rem;margin-top:24px}
+footer a{color:var(--acc);text-decoration:none}
+@media(max-width:560px){.grid2{grid-template-columns:1fr}.stats{grid-template-columns:1fr 1fr}
+  .cap-row{flex-direction:column}}
+@media print{.hdr,.ad,.capture,.share-row,.tunnel,.btn,.aff-section{display:none!important}
+  body{background:#fff;color:#000}.shock-box{border:1px solid #ccc}
+  .shock-value{color:#000!important;-webkit-text-fill-color:#000!important}}
 </style>
 </head>
 <body>
-<header>
-  <h1>🇵🇱 Poland B2B vs UoP — Real Net Calculator 2026</h1>
-  <p>Compare employment vs B2B contract · ZUS · NFZ · liniowy · ryczałt · real monthly difference</p>
-</header>
-<div class="container">
-<div class="ad-slot no-print"><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5382997898313669" data-ad-slot="1111111111" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({});<\/script></div>
-<div class="card">
-  <h2>💼 Contract Parameters</h2>
-  <div class="field"><label>Monthly gross / invoice (PLN)</label><input type="number" id="gross" value="15000" oninput="calcPL()"/></div>
-  <div class="field"><label>B2B — tax form</label>
-    <select id="form" onchange="calcPL()">
-      <option value="liniowy">Podatek liniowy (19% flat)</option>
-      <option value="ryczalt">Ryczałt (12/14%)</option>
-      <option value="skala">Skala podatkowa (12/32%)</option>
-    </select>
-  </div>
-  <div class="field"><label>B2B — ZUS status</label>
-    <select id="zus" onchange="calcPL()">
-      <option value="pelny">Pełny ZUS (~1600 PLN/mo)</option>
-      <option value="maly">Mały ZUS (~400 PLN/mo)</option>
-      <option value="ulga">Ulga na start (0 ZUS — first 6 months)</option>
-    </select>
-  </div>
-  <button class="btn" onclick="calcPL()">⚡ Compare Contracts</button>
+<header class="hdr"><div class="hdr-i"><a href="#" class="logo">&#x1F4B0; <em>Decision</em>Tools</a></div></header>
+<div class="hero"><h1>&#x1F1F5;&#x1F1F1; B2B vs Umowa o Prace 2026</h1><p>B2B moze dac o 800-2000 PLN wiecej netto miesiecznie — lub mniej. Sprawdz dla swoich liczb.</p><div class="badges"><span class="badge">&#x2705; Gratuit</span><span class="badge">&#x1F512; Prive</span><span class="badge">2026</span></div></div>
+<div class="ad"><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5382997898313669" data-ad-slot="auto" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({});<\/script></div>
+<div class="wrap">
+<div class="card"><div class="card-title">Porownaj B2B vs UoP</div><div class="grid2"><div class="field"><label>Wynagrodzenie brutto UoP (PLN/mies.)</label><input id="uop" type="number" value="12000" min="0"></div><div class="field"><label>Stawka B2B netto (PLN/mies.)</label><input id="b2b" type="number" value="15000" min="0"></div></div><div class="field"><label>Forma dzialalnosci B2B</label><select id="form"><option value="linear">Podatek liniowy 19%</option><option value="scale" selected>Skala podatkowa 12%/32%</option><option value="ryczalt">Ryczalt 8.5%</option></select></div><button class="btn" onclick="calcPL()">Porownaj &#8594;</button></div><div id="shock-zone"><div id="shock-box" class="shock-box shock-red"><div class="shock-value" id="sv_pl">0</div><div class="shock-label">Roznica miesieczna B2B vs UoP</div><div class="shock-sub" id="ss_pl"></div></div></div><div class="stats"><div class="stat"><div class="sv" id="st_uop" style="color:#3b82f6">-</div><div class="sl">Netto UoP</div></div><div class="stat"><div class="sv" id="st_b2b" style="color:#10b981">-</div><div class="sl">Netto B2B</div></div><div class="stat"><div class="sv" id="st_yr" style="color:#8b5cf6">-</div><div class="sl">Zysk / rok</div></div><div class="stat"><div class="sv" id="st_zus" style="color:#f59e0b">-</div><div class="sl">ZUS+NFZ B2B</div></div></div><div class="card" style="margin-top:14px"><div class="card-title">Rekomendowane kroki</div><div class="actions"><a href="https://infakt.pl" class="action" target="_blank" rel="nofollow"><div class="a-rank r1">1</div><div class="a-body"><div class="a-title">Przejsc na B2B jesli wynik > 1000 PLN</div><div class="a-desc">Skonsultuj z ksiegowym — moze byc oplacalne.</div><div class="a-gain">Oszczednosc: 800-2000 PLN/mies.</div></div><div class="a-arr">&#8594;</div></a><a href="https://finom.co/pl" class="action" target="_blank" rel="nofollow"><div class="a-rank r2">2</div><div class="a-body"><div class="a-title">Otworz konto firmowe za darmo</div><div class="a-desc">Finom lub Holvi — bez miesiecznych oplat.</div><div class="a-gain">Oszczednosc: 50-150 PLN/mies.</div></div><div class="a-arr">&#8594;</div></a><a href="https://www.pracuj.pl" class="action" target="_blank" rel="nofollow"><div class="a-rank r3">3</div><div class="a-body"><div class="a-title">Negocjuj stawke B2B</div><div class="a-desc">Przekaz pracodawcy kalkulacje jako argument.</div><div class="a-gain">Wzrost: 500-2000 PLN/mies.</div></div><div class="a-arr">&#8594;</div></a></div></div><div class="aff-section"><div class="aff-title">Solutions recommandees</div><div class="aff-grid"><a href="https://infakt.pl" target="_blank" rel="nofollow" class="aff-card"><div class="aff-name">inFakt</div><div class="aff-desc">Ksiegowosc online B2B</div><div class="aff-tag">Ksiegi</div></a><a href="https://finom.co/pl" target="_blank" rel="nofollow" class="aff-card"><div class="aff-name">Finom</div><div class="aff-desc">Konto firmowe bez oplat</div><div class="aff-tag">Biznes</div></a><a href="https://www.holvi.com" target="_blank" rel="nofollow" class="aff-card"><div class="aff-name">Holvi</div><div class="aff-desc">Bank dla freelancerow</div><div class="aff-tag">B2B</div></a><a href="https://www.pracuj.pl" target="_blank" rel="nofollow" class="aff-card"><div class="aff-name">Pracuj.pl</div><div class="aff-desc">Oferty pracy</div><div class="aff-tag">Praca</div></a></div></div><div class="capture"><h3>&#128231; Alertes gratuites</h3><p>Alert: zmiana stawek ZUS i NFZ 2026.</p><form action="https://formspree.io/f/xpwzwqzq" method="POST"><div class="cap-row"><input type="email" name="email" placeholder="votre@email.com" required><input type="hidden" name="_subject" value="poland-b2b-alert"><button type="submit">Recevoir &#8594;</button></div></form></div><div class="share-row"><button class="s-btn s-tw" onclick="shareTwitter('Kalkulator B2B vs UoP 2026 — wynik mnie zaszokowal')">&#x1F4AC; Twitter</button><button class="s-btn s-rd" onclick="shareReddit('B2B vs UoP Calculator Poland 2026 — made this to decide','poland')">&#x1F534; Reddit</button><button class="s-btn s-cp" onclick="copyLink()">&#x1F517; Copier</button><button class="s-btn s-pdf" onclick="exportPDF()">&#x1F5A8; PDF</button></div><div class="tunnel"><div class="tunnel-title">Etape suivante</div><div class="tunnel-grid"><a href="https://Legion33shadow.github.io/real-hourly-rate/" class="t-card"><div class="t-ico">&#x23F1;</div><div class="t-name">Real Hourly Rate</div><div class="t-hook">Ile naprawde zarabiasz/h?</div></a><a href="https://Legion33shadow.github.io/subscription-cost-auditor/" class="t-card"><div class="t-ico">&#x1F4B8;</div><div class="t-name">Audyt Abonamentow</div><div class="t-hook">Ile miesiecznie tracisz?</div></a><a href="https://Legion33shadow.github.io/true-car-cost-calculator/" class="t-card"><div class="t-ico">&#x1F697;</div><div class="t-name">Koszt Samochodu</div><div class="t-hook">Ile kosztuje Twoje auto?</div></a><a href="https://Legion33shadow.github.io/greece-freelance-efka/" class="t-card"><div class="t-ico">&#x1F1EC;&#x1F1F7;</div><div class="t-name">Greece EFKA</div><div class="t-hook">Freelance w Grecji</div></a></div></div>
 </div>
-<div class="card">
-  <h2>📊 B2B vs UoP Comparison</h2>
-  <div class="result-row"><span class="res-label">💼 UoP net salary</span><span class="res-value" id="res_uop">—</span></div>
-  <div class="result-row"><span class="res-label">🏢 B2B net income</span><span class="res-value" id="res_b2b">—</span></div>
-  <div class="result-row"><span class="res-label">📈 Monthly difference</span><span class="res-value" id="res_diff">—</span></div>
-  <div class="result-row"><span class="res-label">📉 UoP income tax</span><span class="res-value" id="res_uoptax">—</span></div>
-  <div class="result-row"><span class="res-label">📉 B2B income tax</span><span class="res-value" id="res_b2btax">—</span></div>
-  <div id="shock_pl" class="shock"></div>
-  <div class="affiliate-box" id="aff_box"><h3>💡 Based on your results — tools that can help:</h3><div class="aff-links"><a class="aff-link" href="https://wise.com" target="_blank" rel="noopener sponsored">💳 Wise Business — Free international</a><a class="aff-link" href="https://www.holvi.com" target="_blank" rel="noopener sponsored">🏦 Holvi — Freelance bank — EU business account</a><a class="aff-link" href="https://www.finom.co" target="_blank" rel="noopener sponsored">📱 Finom — Business account — Invoice + bank</a></div></div>
-  <div class="share-bar no-print"><button class="btn-sm btn-share" onclick="shareReddit()">🔴 Share on Reddit</button><button class="btn-sm btn-twitter" onclick="shareTwitter()">𝕏 Share on X</button><button class="btn-sm btn-pdf" onclick="exportPDF()">📄 Export PDF</button></div>
-  <div class="capture-box no-print" id="capture_section"><h3>📧 Save your result + get updates when rules change</h3><p style="font-size:.82rem;color:#4338ca;margin-bottom:10px">We'll notify you when ZUS/NFZ rates change for 2027.</p><form class="capture-form" onsubmit="submitEmail(event)"><input type="email" id="cap_email" placeholder="your@email.com" required/><button type="submit" class="btn-sm btn-email">Save free ↗</button></form><p id="cap_thanks" style="display:none;color:#16a34a;font-size:.85rem;margin-top:8px">✅ Saved! You'll be notified when poland-b2b-vs-uop rules change.</p></div>
-  <div class="tunnel-bar no-print"><p>🔗 Explore more friction calculators:</p><div class="tunnel-links"><a class="tunnel-link" href="https://Legion33shadow.github.io/nebenjob-rechner-de/" target="_blank">🇩🇪 Nebenjob Rechner</a><a class="tunnel-link" href="https://Legion33shadow.github.io/csn-inkomst-kalkylator-se/" target="_blank">🇸🇪 CSN Kalkylator</a><a class="tunnel-link" href="https://Legion33shadow.github.io/real-hourly-rate/" target="_blank">🌍 Real Hourly Rate</a><a class="tunnel-link" href="https://Legion33shadow.github.io/portugal-nhr-calculator/" target="_blank">🇵🇹 Portugal NHR</a><a class="tunnel-link" href="https://Legion33shadow.github.io/huurtoeslag-calculator-nl/" target="_blank">🇳🇱 Huurtoeslag NL</a></div></div>
-</div>
-<div class="ad-slot no-print"><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5382997898313669" data-ad-slot="3333333333" data-ad-format="rectangle" data-full-width-responsive="true"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({});<\/script></div>
-<div class="meta-footer">Updated 2026 · LEGION v24 · <a href="sitemap.xml">sitemap</a></div>
-</div>
+<div class="ad"><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5382997898313669" data-ad-slot="auto" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({});<\/script></div>
+<footer><p>&#169; 2026 DecisionTools &mdash; <a href="privacy.html">Privacy</a> &middot; Calculs indicatifs uniquement.</p></footer>
 <script>
 
-function exportPDF(){
-  document.querySelector('.share-bar').style.display='none';
-  document.querySelector('.capture-box').style.display='none';
-  window.print();
-  setTimeout(()=>{
-    document.querySelector('.share-bar').style.display='flex';
-    document.querySelector('.capture-box').style.display='block';
-  },1000);
-}
-function shareReddit(){
-  const txt = encodeURIComponent('Poland B2B vs UoP: my real difference is '+plDiff+' PLN/month — calculated with this tool');
-  const url = encodeURIComponent(window.location.href);
-  window.open('https://www.reddit.com/submit?title='+txt+'&url='+url,'_blank');
-}
-function shareTwitter(){
-  const txt = encodeURIComponent('Poland B2B vs UoP: my real difference is '+plDiff+' PLN/month — calculated with this tool'+' '+window.location.href);
-  window.open('https://twitter.com/intent/tweet?text='+txt,'_blank');
-}
-function submitEmail(e){
-  e.preventDefault();
-  const email = document.getElementById('cap_email').value;
-  if(!email) return;
-  const form  = new FormData();
-  form.append('email', email);
-  form.append('source', 'poland-b2b-vs-uop');
-  form.append('result', plDiff || 'N/A');
-  fetch('https://formspree.io/f/xpwzpwzp',{
-    method:'POST', body:form,
-    headers:{'Accept':'application/json'}
-  }).then(()=>{
-    document.getElementById('cap_email').value='';
-    document.getElementById('cap_thanks').style.display='block';
-  }).catch(()=>{});
-  return false;
-}
-
-
-var plDiff = 0;
-function calcPL(){
-  const gross   = parseFloat(document.getElementById('gross').value)||0;
-  const form    = document.getElementById('form').value;
-  const zus     = document.getElementById('zus').value;
-  // UoP (employment contract)
-  const em_ZUS  = gross*0.1371;
-  const em_NFZ  = (gross - em_ZUS)*0.09;
-  const taxable = gross - em_ZUS;
-  let uopTax = 0;
-  if(taxable <= 120000) uopTax = taxable*0.12 - 3600;
-  else uopTax = (120000*0.12-3600) + (taxable-120000)*0.32;
-  uopTax = Math.max(uopTax, 0);
-  const uopNet  = gross - em_ZUS - em_NFZ - uopTax;
-  // B2B
-  let b2bZUS = 0;
-  if(zus==='pelny') b2bZUS = 1600;       // pełny ZUS 2026 (approx)
-  else if(zus==='maly') b2bZUS = 400;    // mały ZUS
-  else b2bZUS = 0;                       // ulga na start (6 mois)
-  const b2bNFZ  = 419;                   // NFZ ryczałt 2026 (approx)
-  let b2bTax = 0;
-  const b2bIncome = gross - b2bZUS;
-  if(form==='liniowy') b2bTax = b2bIncome * 0.19;
-  else if(form==='ryczalt'){
-    b2bTax = b2bIncome <= 60000 ? b2bIncome*0.12 :
-             60000*0.12 + (b2bIncome-60000)*0.14;
-  } else {
-    if(b2bIncome<=120000) b2bTax = b2bIncome*0.12-3600;
-    else b2bTax = (120000*0.12-3600)+(b2bIncome-120000)*0.32;
-    b2bTax = Math.max(b2bTax,0);
+function showProj(mo){
+  if(!mo||mo<=0){document.getElementById('proj').style.display='none';return;}
+  var rows=[3,5,10]; var html='';
+  for(var i=0;i<rows.length;i++){
+    var y=rows[i];
+    var cost=Math.round(mo*12*y);
+    var gain=Math.round(cost*Math.pow(1.07,y));
+    var delta=Math.round(gain-cost);
+    html+='<div class="proj-row">'
+      +'<span class="proj-year">'+y+' ans</span>'
+      +'<span class="proj-cost">-'+cost.toLocaleString()+'</span>'
+      +'<span class="proj-gain">+'+gain.toLocaleString()+' si investi</span>'
+      +'<span class="proj-note">(+'+delta.toLocaleString()+'  interets)</span>'
+      +'</div>';
   }
-  const b2bNet = gross - b2bZUS*12/12 - b2bNFZ - b2bTax;
-  plDiff = Math.round(b2bNet - uopNet);
-  document.getElementById('res_uop').textContent  = uopNet.toFixed(0)+' PLN';
-  document.getElementById('res_b2b').textContent  = b2bNet.toFixed(0)+' PLN';
-  document.getElementById('res_diff').textContent = (plDiff>=0?'+':'')+plDiff+' PLN';
-  document.getElementById('res_uoptax').textContent = uopTax.toFixed(0)+' PLN';
-  document.getElementById('res_b2btax').textContent = b2bTax.toFixed(0)+' PLN';
-  const shock = document.getElementById('shock_pl');
-  shock.style.display='block';
-  shock.className = 'shock '+(plDiff>0?'shock-green':'shock-red');
-  shock.innerHTML = plDiff>0
-    ? 'B2B gives you <strong>+'+plDiff+' PLN/mo</strong> more than UoP'
-    : 'UoP gives you <strong>'+Math.abs(plDiff)+' PLN/mo</strong> more than B2B with this setup';
-  document.getElementById('aff_box').style.display='block';
-  document.getElementById('capture_section').style.display='block';
+  document.getElementById('proj-body').innerHTML=html;
+  document.getElementById('proj').style.display='block';
 }
+function shareTwitter(txt){
+  window.open('https://twitter.com/intent/tweet?text='+encodeURIComponent(txt+' '+location.href),'_blank');
+}
+function shareReddit(title, sub){
+  var u='https://www.reddit.com/r/'+sub+'/submit?title='+encodeURIComponent(title)+'&url='+encodeURIComponent(location.href);
+  window.open(u,'_blank');
+}
+function copyLink(){navigator.clipboard.writeText(location.href).then(function(){alert('Lien copie!');});}
+function exportPDF(){window.print();}
 
-window.onload = calcPL;
+function calcPL(){var uop_b=+document.getElementById('uop').value||0;var b2b_n=+document.getElementById('b2b').value||0;var form=document.getElementById('form').value;var zus_p=uop_b*0.1371; var after=uop_b-zus_p;var pit_u=Math.max(0,after>120000?after*0.32-10800:after*0.12-3600);var uop_net=uop_b-zus_p-pit_u;var zus_b=1660; var nfz_b=419; var tzus=zus_b+nfz_b;var taxable=b2b_n-tzus; var tax_b=0;if(form==='linear'){tax_b=Math.max(0,taxable*0.19);}else if(form==='scale'){tax_b=Math.max(0,taxable>120000?taxable*0.32-10800:taxable*0.12-3600);}else{tax_b=Math.max(0,taxable*0.085);}var b2b_net=b2b_n-tzus-tax_b;var diff=b2b_net-uop_net; var diff_yr=diff*12;document.getElementById('sv_pl').textContent=(diff>=0?'+':'')+Math.round(diff).toLocaleString('pl-PL')+' PLN';document.getElementById('ss_pl').textContent=diff>2000?'B2B zdecydowanie oplacalne':diff>500?'B2B moze byc oplacalne':diff>0?'B2B nieznacznie lepsza':'UoP moze byc bezpieczniejsza';var bx=document.getElementById('shock-box');bx.className='shock-box '+(diff>1000?'shock-green':diff>0?'shock-orange':'shock-red');document.getElementById('st_uop').textContent=Math.round(uop_net).toLocaleString('pl-PL')+' PLN';document.getElementById('st_b2b').textContent=Math.round(b2b_net).toLocaleString('pl-PL')+' PLN';document.getElementById('st_yr').textContent=(diff>=0?'+':'')+Math.round(diff_yr).toLocaleString('pl-PL')+' PLN';document.getElementById('st_zus').textContent=Math.round(tzus).toLocaleString('pl-PL')+' PLN';document.getElementById('shock-zone').style.display='block';}
 </script>
 </body></html>
