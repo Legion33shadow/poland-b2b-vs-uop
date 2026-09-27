@@ -1,0 +1,21 @@
+{
+  "slug": "poland-b2b-vs-uop",
+  "country": "PL",
+  "domain": "tax_arbitrage",
+  "law_reference": "Ustawa o podatku dochodowym (PIT) + Sk\u0142adki ZUS / Polski \u0141ad Update",
+  "sources": [
+    "https://www.podatki.gov.pl",
+    "https://www.zus.pl"
+  ],
+  "sources_health": {
+    "https://www.podatki.gov.pl": {
+      "status": 200,
+      "reachable": true
+    },
+    "https://www.zus.pl": {
+      "status": 200,
+      "reachable": true
+    }
+  },
+  "signature_payload": "223f09c1790a9e192d38a1992adcd05895dfa8f887562bec9348397dd3af8b17"
+}
