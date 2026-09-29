@@ -1,0 +1,11 @@
+{
+  "tool": "poland-b2b-vs-uop",
+  "country": "PL",
+  "category": "tax_labor",
+  "official_sources": [
+    "https://www.podatki.gov.pl/",
+    "https://www.zus.pl/"
+  ],
+  "last_reviewed": "2026-09-28",
+  "source_status": "official_sources_listed_not_formula_verified"
+}

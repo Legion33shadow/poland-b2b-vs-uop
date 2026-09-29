@@ -1,0 +1,13 @@
+{
+  "slug": "poland-b2b-vs-uop",
+  "type": "calculator",
+  "country": "PL",
+  "category": "tax_labor",
+  "official_sources": [
+    "https://www.podatki.gov.pl/",
+    "https://www.zus.pl/"
+  ],
+  "claim_state": "method_unverified",
+  "phoenix_ready": false,
+  "limitations": "B2B vs UoP depends on contract, ZUS, tax form and eligibility."
+}
